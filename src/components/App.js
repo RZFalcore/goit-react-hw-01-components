@@ -33,7 +33,7 @@ const App = () => (
       views={user.stats.views}
       likes={user.stats.likes}
     />
-    <Stats title="TITLE" stats={stats} />
+    <Stats title="" stats={stats} />
   </div>
 );
 
