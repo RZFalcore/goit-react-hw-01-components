@@ -1,6 +1,8 @@
 import React from 'react';
 import Profile from './Profile/Profile';
 import Stats from './Stats/Stats';
+import PricingPlan from './PricingPlan/PricingPlan';
+import pricing from './pricing-plan.json';
 
 const user = {
   name: 'Jacques Gluke',
@@ -34,6 +36,7 @@ const App = () => (
       likes={user.stats.likes}
     />
     <Stats title="" stats={stats} />
+    <PricingPlan items={pricing} />
   </div>
 );
 
