@@ -16,9 +16,20 @@
   margin: 0px;
   margin-bottom: 24px;
   font-size: 35px;
-  color: #dd7c4b;
   text-transform: uppercase;
   text-align: center;
+}
+
+.Bronze {
+  color: #dd7c4b;
+}
+
+.Silver {
+  color: #c0c0c0;
+}
+
+.Gold {
+  color: #dda431;
 }
 
 .capacity {
