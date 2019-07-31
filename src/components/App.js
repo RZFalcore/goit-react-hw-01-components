@@ -37,7 +37,7 @@ const App = () => (
       views={user.stats.views}
       likes={user.stats.likes}
     />
-    <Stats title="" stats={stats} />
+    <Stats title="Upload stats" stats={stats} />
     <PricingPlan items={pricing} />
     <TransactionHistory items={transactions} />
   </div>
