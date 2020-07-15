@@ -1,11 +1,15 @@
 body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(165, 154, 154);
 }
 
 .profile {
     width: 300px;
     height: 390px;
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 0;
     display: flex;
     flex-direction: column;
