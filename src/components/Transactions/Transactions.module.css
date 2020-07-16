@@ -1,0 +1,36 @@
+.transactionHistory {
+    background-color: grey;
+    width: 600px;
+    margin: 20px auto;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+th {
+    width: 33%;
+    background-color: rgb(1, 214, 214);
+    height: 40px;
+    outline: 1px solid grey;
+    color: white;
+}
+
+tr {
+    height: 40px;
+    background-color: #fff;
+}
+
+tr:nth-child(2n) {
+    background-color: lightblue;
+}
+
+td {
+    font-weight: 14px;
+    color: rgb(107, 107, 107);
+    outline: 1px solid gray;
+}
+
+td::first-letter {
+    text-transform: uppercase;
+}
